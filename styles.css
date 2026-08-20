@@ -1,0 +1,105 @@
+:root {
+  color: #101828;
+  background: #f2f4f7;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main,
+header {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+header {
+  border-bottom: 1px solid #d0d5dd;
+  background: #ffffff;
+}
+
+h1,
+h2 {
+  margin: 0 0 0.75rem;
+}
+
+p,
+li,
+label,
+td {
+  line-height: 1.5;
+}
+
+.spacer {
+  min-height: 120vh;
+  padding: 2rem 1.5rem;
+  color: #667085;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 1rem 0;
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+input,
+button,
+a.button {
+  font: inherit;
+}
+
+input {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #98a2b3;
+  border-radius: 8px;
+}
+
+button,
+a.button {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  background: #175cd3;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eaecf0;
+}
+
+.total {
+  font-weight: 700;
+}
+
+.mismatch {
+  color: #b42318;
+}
+
+.panel {
+  display: block;
+  width: 160px;
+  height: 48px;
+  margin: 2rem 0;
+}
+
+.hint {
+  color: #475467;
+}

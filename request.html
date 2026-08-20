@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Request quote</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <p><a href="/">Back to catalog</a></p>
+      <h1>Request quote</h1>
+    </header>
+    <main>
+      <form class="card" data-request-form action="/review" method="get">
+        <label for="requester">Requester name</label>
+        <input
+          id="requester"
+          name="requester"
+          type="text"
+          autocomplete="off"
+          required
+          minlength="3"
+        />
+        <p data-error class="mismatch" role="status"></p>
+        <p class="hint">Type a name with the keyboard, then continue.</p>
+        <button type="submit">Continue to review</button>
+      </form>
+    </main>
+    <script src="/flow.js"></script>
+  </body>
+</html>

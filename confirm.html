@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Confirm quote</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <p><a href="/inspect">Back to inspect</a></p>
+      <h1>Confirm quote</h1>
+    </header>
+    <main>
+      <div class="card">
+        <table>
+          <tbody>
+            <tr>
+              <td>Widget A</td>
+              <td>$4.00</td>
+            </tr>
+            <tr>
+              <td>Widget B</td>
+              <td>$8.00</td>
+            </tr>
+            <tr>
+              <td class="total">Quoted total</td>
+              <td class="total mismatch">$19.00</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="mismatch">Quoted total does not equal the line-item sum.</p>
+        <p>Marker: synthetic-quote-total-mismatch</p>
+      </div>
+    </main>
+  </body>
+</html>
